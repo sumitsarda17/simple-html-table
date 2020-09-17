@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+	<title> THIS CODE IS CODED BY SUMIT SARDA 180020116035 </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<table width="1000px" border="1">
+		<tr>
+			<td colspan="6" id="name">CREATED BY SUMIT SARDA 180020116035</td>
+		</tr>
+	
+		<tr>
+			<td colspan="6" id="college">AHMEDABAD INSTITUTE OF TECHNOLOGY</td>
+		</tr>
+		
+		<tr>
+			<td colspan="6" id="batch">5-IT </td>
+		</tr>
+		
+		<tr>
+			<td> </td>
+			<th>MONDAY</th>
+			<th>TUESDAY</th>
+			<th>WEDNESDAY</th>
+			<th>THURSDAY</th>
+			<th>FRIDAY</th>	
+		</tr>
+		
+		<tr>
+			<th>10:15 TO 11:15</th>
+			<td>ADA</td>
+			<td>CS</td>
+			<td>WD</td>
+			<td>IPDC</td>
+			<td>DS</td>
+		</tr>
+		
+		<tr>
+			<th>11:15 TO 12:15</th>
+			<td>WD</td>
+			<td>WD</td>
+			<td>ADA</td>
+			<td>PE</td>
+			<td>PE</td>
+		</tr>
+		
+		<tr>
+			<td colspan="6" id="recess">RECESS</td>
+		</tr>
+		
+		<tr>
+			<th>1:15 TO 2:15</th>
+			<td>CS</td>
+			<td>ADA</td>
+			<td>CN</td>
+			<td>CN</td>
+			<td>CN</td>
+		</tr>
+		
+		<tr style="height: 34.6px;" id="lab">
+<th style="height: 34.6px;">2:15 TO 4:15</th>
+<td style="height: 34.6px;">DS</td>
+<td style="height: 34.6px;">CN</td>
+<td style="height: 34.6px;">ADA</td>
+<td style="height: 34.6px;">WD</td>
+<td style="height: 34.6px;">&nbsp;</td>
+</tr>
+		
+	</table>
+
+</body>
+</html>
