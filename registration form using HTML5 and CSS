@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="styleshhet" href="style.css">
+    <p><strong><font color="orange">THIS IS CODED</font><font color="white"> BY</font><font color="green"> SUMIT SARDA 180020116035</font></strong></p>
+    <style>
+body {
+  background-color: linen;
+}
+table{
+  background-color: azure;
+}
+#name{
+  text-align: center;
+}
+#mail{
+  background-color: lightblue;
+  text-align: center;
+}
+#pass{
+  text-align: center;
+}
+#cpass{
+  background-color: lightblue;
+  text-align: center;
+}
+#city{
+  text-align: center;
+}
+#city{
+  background-color: lightblue;
+  text-align: center;
+}
+#gender{
+  text-align: center;
+}
+#tc{
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+  </head>
+	<body>
+	<script>
+		function check(form){
+			var p1 = form.password.value;
+			var p2 = form.password2.value;
+			var usercity = form.city.value;
+			var usergen = form.gender.value;
+			
+			if(p1!= p2){
+			document.getElementById("msg").innerHTML = '<font color="red"><strong>PASSWORD AND CONFIRM PASSWORD MUST BE SAME<strong></font>';
+			}
+			else{
+			document.getElementById("msg").innerHTML = '<font color="green"><strong>LOGIN SUCCESSFUL</strong>';
+			}
+		}
+	</script>
+		<form action="" method="GET">
+		<table border="0">
+		<tr id="name">
+		<td>ENTER NAME:</td>
+		<td><input type="text" name="first name" placeholder="enter your first name"></td>
+		</tr>
+		
+		<tr id="mail">
+		<td>ENTER EMAIL:</td>
+		<td><input type="text" name="usermail" placeholder="enter email"></td>
+		</tr>
+		
+		<tr id="pass">
+		<td>ENTER PASSWORD:</td>
+		<td><input type="text" name="password" placeholder="enter password"></td>
+		</tr>
+		
+		<tr id="cpass">
+		<td>CONFIRM PASSWORD:</td>
+		<td><input type="text" name="password2" placeholder="re-enter password"></td>
+		</tr>
+		
+		<tr id="add">
+		<td>ENTER ADDRESS:</td>
+		<td><textarea rows="4" cols="25"> </textarea></td>
+		</tr>
+		
+		<tr id="city">
+		<td>CITY:</td>
+		<td><select name="city"></br></br>
+				<option value="ADI">AHMEDABAD</option>
+				<option value="ST">SURAT</option>
+				<option value="VD">VADODARA</option>
+				<option value="RJ">RAJKOT</option>
+		</select></td>
+		</tr>
+		
+		<tr id="gender">
+		<td>GENDER:</td>
+		<td><input type="radio" name="gender" value="m"> MALE</td>
+		<td><input type="radio" name="gender" value="f"> FEMALE</td>
+		</tr>
+		
+		<tr id="tc">
+		<td><input type="checkbox" name="t&c" value="t&c">APPLY TO T & C</td>
+		</tr>
+		</table>
+		
+		<tr>
+		<td><input type="submit" value="SUBMIT" onclick="check(this.form); return false;"></td>
+		</tr>
+		
+		</form>
+		<p id="msg"></p>
+	</body>
+</html>
