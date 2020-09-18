@@ -1,0 +1,75 @@
+<!--HTML CODE-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BOX MODEL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <h3 style="text-align: center;">SUMIT SARDA 180020116035</h3>
+   <div id="image">
+      <img 
+    src="https://i.pinimg.com/736x/66/f0/42/66f042a90401d715aad356622961c90c--ellsworth-kelly-rainbow-art.jpg" alt="SPECTRUM V BY ELLSWORTH KELLY" width="200" height="100">
+   </div>
+  </head>
+
+  <body>
+    <h1>INSPIRED BY SPECTRUM V BY THE ARTIST ELLSWORTH KELLY</h1>
+    <div class="A">
+    <table class="art">
+      <tr>
+        <td id="one"></td>
+        <td id="two"></td>
+        <td id="three"></td>
+        <td id="four"></td>
+        <td id="five"></td>
+      </tr>
+    </table>
+    </div>
+  </body>
+</html>
+
+
+/*CSS CODE*/
+#image{
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  padding: 5px;
+  margin-left: 0.1px;
+}
+h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.art{
+  margin: auto;
+  width: 500px;
+}
+td{
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  border: 6px solid white;
+} 
+#one{
+  background-color: #DAD2D8;
+}
+#two{
+  background-color: #325FA2 
+}
+#three{
+  background-color: #143642 
+}
+#four{
+  background-color: #EC9A29
+}
+#five{
+  background-color: #A8201A
+}
+.A{
+  width: auto;
+  border: 15px solid whitesmoke;
+  padding: 50px;
+  margin: auto;
+  position: relative;
+}
